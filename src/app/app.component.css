@@ -17,6 +17,11 @@ nav ul {
 	list-style: none;
 	display: flex;
 }
+nav li:hover{
+	background-color: #fff;
+	color: black;
+	border: ;
+}
 
 nav li {
 	margin-right: 20px;
