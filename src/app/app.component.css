@@ -20,8 +20,9 @@ nav ul {
 nav li:hover{
 	background-color: antiquewhite;
 	color: rgba(0, 0, 0, 0.966);
-	border-radius: 100px;
-	border-width: 10px;
+	border-radius: 10px;
+	border-style:outset;
+	border-color: azure;
 }
 
 nav li {
