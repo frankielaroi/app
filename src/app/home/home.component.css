@@ -1,0 +1,9 @@
+.img1 {
+    width: max-content;
+    height: max-content;
+    position: relative;
+    padding-left: 200px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
