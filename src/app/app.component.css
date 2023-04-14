@@ -3,9 +3,6 @@
   padding: 0%;
   box-sizing: border-box;
 }
-body {
-	
-}
 header{
   display: flex;
   width: 100%;
@@ -42,7 +39,6 @@ button{
 	font-weight: bold;
 	align-items: center;
 	justify-content: center;
-	color: white;
 }
 button:hover{
 	width: 72px;
@@ -51,8 +47,9 @@ button:hover{
 }
 .buton1 button{
 	border: 2px solid purple;
-	background: none;
-	
+	background: none;	
+	text-decoration: none;
+
 }
 .buton2 button{
 	border: 2px none ;
@@ -154,5 +151,40 @@ a{
   100% {
     opacity:1;
     transform:translateY(0px)
-  }
+  }	
+}
+.route {
+	position: absolute;
+	left: 20%;
+	background-color: aqua;
+}
+a{
+	text-decoration: none;
+}
+.footer{
+	width:100%;
+	height:30vh;
+	background:black;
+}
+.theul{
+	position: absolute;
+	top: 105%;
+	left:10%;
+}
+li{
+	text-decoration: none;
+	margin: 5px;
+}
+.pngs{
+  display: flex;
+  justify-content: space-between;
+	position: absolute;
+	top: 105%;
+	left:30%;
+}
+.png{
+  margin: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }

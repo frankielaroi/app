@@ -14,10 +14,10 @@
 			</div>
 			<div class="buton">
 				<div class="buton1">
-					<button>log-in</button>
+					<button><a routerLink="login"> log-in</a></button>
 				</div>
 				<div class="buton2">
-					<button>sign-up</button>
+					<button><a routerLink="signg-up">sign-up</a></button>
 				</div>
 			</div>
 		</div>
@@ -32,6 +32,7 @@
 	</div>
 	<div class="search">
 		<input type="text" placeholder="search">
+		<router-outlet class="route"></router-outlet>
 	</div>
 	<div class="welcometext2">
 		Lorem ipsum dolor
@@ -44,18 +45,3 @@
 		<h3>if you dont have an account <a href="">sign-up</a></h3>
 	</div>
 	
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-		
-	<router-outlet></router-outlet>
