@@ -1,9 +1,9 @@
-<div class="log">
+<form class="log">
   <div class="input1">
-    <input type="text" placeholder="username" [(type)]="username"><br />
+    <input type="text" placeholder="username" [(ngModel)]="enum.username" [ngModelOptions]="{standalone: true}">><br />
   </div>
   <div class="input2">
-    <input type="text" placeholder="password" [(value)]="password">
+    <input type="text" placeholder="password" [(ngModel)]="enum.password"  [ngModelOptions]="{standalone: true}">
   </div>
   <button (click)="login()">log-in</button>
    <input class="checkbox" type="checkbox">
@@ -15,7 +15,7 @@
     This page is protected by Google
     reCAPTCHA to ensure you're not a bot.
   </div>
-</div>
+</form>
 
 <div class="back">
 

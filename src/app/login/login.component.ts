@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm, FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -6,9 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-
-password:any;
-username:any;
-login(){
+  enum={
+  password:'',
+  username:''
 }
+  login() {
+    console.log(this.enum.username,this.enum.password)
+  }
 }

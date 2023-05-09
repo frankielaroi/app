@@ -10,6 +10,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { SigngUpComponent } from './signg-up/signg-up.component';
 import { LoginComponent } from './login/login.component';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,14 +20,15 @@ import { LoginComponent } from './login/login.component';
     ServicesComponent,
     ContactComponent,
     SigngUpComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
-  
+
 })
 export class AppModule { }
